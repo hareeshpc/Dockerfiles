@@ -8,4 +8,5 @@ RUN cargo install ripgrep
 # $ docker run -it -d --rm --name rg-builder rg-builder:0.1 
 # $ docker cp rg-builder:/usr/local/cargo/bin/rg .
 # $ docker stop rg-builder
+# $ docker rmi rg-builder:0.1
 

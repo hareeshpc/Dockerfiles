@@ -9,4 +9,5 @@ RUN cargo install fd-find
 # $ docker run -it -d --rm --name fd-builder fd-builder:0.1
 # $ docker cp fd-builder:/usr/local/cargo/bin/fd .
 # $ docker stop fd-builder
+# $ docker rmi fd-builder:0.1
 
